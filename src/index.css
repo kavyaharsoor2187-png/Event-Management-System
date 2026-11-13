@@ -1,0 +1,34 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f8fafc;
+  color: #172033;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  transition: 0.2s ease;
+}
+
+.main-container {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 25px;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    padding: 18px 15px;
+  }
+}
